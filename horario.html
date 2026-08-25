@@ -3,17 +3,101 @@
 <head>
 <meta charset="UTF-8">
 <title>Horario</title>
+
+<style>
+
+    body {
+        background-color: #fff0f6;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .contenedor {
+        background-color: white;
+        max-width: 1200px;
+        margin: auto;
+        padding: 35px;
+        border-radius: 25px;
+        box-shadow: 0px 5px 15px #d9a7bd;
+        text-align: center;
+    }
+
+    h1 {
+        color: #c85c8e;
+        font-family: Georgia, serif;
+        font-size: 42px;
+        margin-bottom: 5px;
+    }
+
+    h2 {
+        color: #b84c7b;
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    table {
+        margin: auto;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 1100px;
+        font-size: 16px;
+    }
+
+    th {
+        background-color: #e89aba;
+        color: white;
+        padding: 15px;
+        font-size: 17px;
+        border: 1px solid #d77ca5;
+    }
+
+    td {
+        padding: 13px;
+        border: 1px solid #e7b6c8;
+        color: #5c3b4a;
+        text-align: center;
+    }
+
+    tr:nth-child(even) td {
+        background-color: #fff7fa;
+    }
+
+    td[colspan="6"] {
+        background-color: #f8d8e4;
+        color: #9c3f6c;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .volver {
+        display: inline-block;
+        background-color: #f4b6cf;
+        color: #5c3b4a;
+        padding: 12px 25px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    .volver:hover {
+        background-color: #e89aba;
+        transform: scale(1.05);
+    }
+
+</style>
+
 </head>
 
 <body>
 
-<div style="text-align: center;">
+<div class="contenedor">
 
 <h1>HORARIO 2026</h1>
 <h2>Grupo: 11-6</h2>
-    
 
-<table border="1" cellpadding="10" cellspacing="0">
+<table>
 
 <tr>
     <th></th>
@@ -25,7 +109,7 @@
 </tr>
 
 <tr>
-    <td colspan="6" align="center"><b>JORNADA MAÑANA</b></td>
+    <td colspan="6"><b>JORNADA MAÑANA</b></td>
 </tr>
 
 <tr>
@@ -45,7 +129,7 @@
 </tr>
 
 <tr>
-    <td colspan="6" align="center"><b>Descanso</b></td>
+    <td colspan="6"><b>Descanso</b></td>
 </tr>
 
 <tr>
@@ -64,7 +148,7 @@
 </tr>
 
 <tr>
-    <td colspan="6" align="center"><b>Descanso</b></td>
+    <td colspan="6"><b>Descanso</b></td>
 </tr>
 
 <tr>
@@ -83,7 +167,7 @@
 </tr>
 
 <tr>
-    <td colspan="6" align="center"><b>JORNADA TARDE</b></td>
+    <td colspan="6"><b>JORNADA TARDE</b></td>
 </tr>
 
 <tr>
@@ -105,7 +189,7 @@
 </tr>
 
 <tr>
-    <td colspan="6" align="center"><b>Descanso</b></td>
+    <td colspan="6"><b>Descanso</b></td>
 </tr>
 
 <tr>
@@ -127,7 +211,7 @@
 </tr>
 
 <tr>
-    <td colspan="6" align="center"><b>Descanso</b></td>
+    <td colspan="6"><b>Descanso</b></td>
 </tr>
 
 <tr>
@@ -147,13 +231,12 @@
     <td></td>
     <td></td>
 </tr>
-</div>
 
 </table>
 
-<br><br>
+<a href="index.html" class="volver">Volver a la página principal</a>
 
-<a href="index.html">Volver a la página principal</a>
+</div>
 
 </body>
 </html>

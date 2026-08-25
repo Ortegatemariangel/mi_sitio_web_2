@@ -3,41 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <title>Mis Hobbies</title>
+
+    <style>
+
+        body {
+            background-color: #fff0f6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .contenedor {
+            background-color: white;
+            max-width: 950px;
+            margin: auto;
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0px 5px 15px #d9a7bd;
+            text-align: center;
+        }
+
+        h1 {
+            color: #c85c8e;
+            font-size: 42px;
+            font-family: Georgia, serif;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #b84c7b;
+            font-size: 30px;
+            font-family: Georgia, serif;
+            margin-top: 35px;
+        }
+
+        .introduccion {
+            color: #5c3b4a;
+            font-size: 18px;
+            line-height: 1.7;
+            max-width: 750px;
+            margin: 0 auto 25px auto;
+        }
+
+        .foto-hobby {
+            width: 400px;
+            max-width: 90%;
+            border-radius: 20px;
+            border: 5px solid #f4b6cf;
+            padding: 6px;
+            box-shadow: 0px 4px 12px #e3b4c6;
+            margin: 10px 0 20px 0;
+        }
+
+        .texto {
+            color: #5c3b4a;
+            font-size: 18px;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 18px auto;
+            text-align: justify;
+        }
+
+        hr {
+            width: 80%;
+            border: none;
+            border-top: 2px solid #f4b6cf;
+            margin: 40px auto;
+        }
+
+        .volver {
+            display: inline-block;
+            background-color: #f4b6cf;
+            color: #5c3b4a;
+            padding: 12px 25px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 25px;
+        }
+
+        .volver:hover {
+            background-color: #e89aba;
+            transform: scale(1.05);
+        }
+
+    </style>
+
 </head>
 
 <body>
 
-<div align="center">
+<div class="contenedor">
 
-<h1>Mis Hobbies</h1>
+    <h1> Mis Hobbies </h1>
 
-<p>
-En mi tiempo libre me gusta realizar actividades que me permiten divertirme,
-desestresarme y mantenerme activa. Estos son mis hobbies favoritos.
-</p>
+    <p class="introduccion">
+        En mi tiempo libre me gusta realizar actividades que me permiten
+        divertirme, desestresarme y mantenerme activa. Estos son mis hobbies
+        favoritos.
+    </p>
 
-<h2>Patinaje</h2>
-<img src="img/patinaje.png" width="200" alt="Patinaje">
-<p>
-Desde muy pequeña me ha apasionado el patinaje. Me encanta patinar y,
-cuando tengo tiempo libre, disfruto mucho practicar este deporte.
-Jamás me cansaría de hacerlo, ya que es mi deporte favorito.
-Me hubiera gustado poder llevarlo más allá de un hobby, pero por el
-momento no ha sido posible. Aun así, siempre será una actividad muy
-especial para mí.
-</p>
+    <h2> Patinaje</h2>
 
-<br>
+    <img src="img/patinaje.png" class="foto-hobby" alt="Patinaje">
 
-<h2>Fútbol</h2>
-<img src="img/Futbol.png" width="200" alt="Fútbol">
-<p>
-En mis tiempos libres también juego fútbol con mis compañeras del colegio.
-Es una actividad que disfruto mucho y que practico con más frecuencia que
-el patinaje. Además de divertirme, me permite compartir con mis amigas,
-trabajar en equipo y mantenerme activa.
+    <p class="texto">
+        Desde muy pequeña me ha apasionado el patinaje. Me encanta patinar y,
+        cuando tengo tiempo libre, disfruto mucho practicar este deporte.
+        Jamás me cansaría de hacerlo, ya que es mi deporte favorito.
+        Me hubiera gustado poder llevarlo más allá de un hobby, pero por el
+        momento no ha sido posible. Aun así, siempre será una actividad muy
+        especial para mí.
+    </p>
 
-<a href="index.html">Volver a la página principal</a>
+    <hr>
+
+    <h2>Fútbol</h2>
+
+    <img src="img/Futbol.png" class="foto-hobby" alt="Fútbol">
+
+    <p class="texto">
+        En mis tiempos libres también juego fútbol con mis compañeras del colegio.
+        Es una actividad que disfruto mucho y que practico con más frecuencia que
+        el patinaje. Además de divertirme, me permite compartir con mis amigas,
+        trabajar en equipo y mantenerme activa.
+    </p>
+
+    <a href="index.html" class="volver">← Volver a la página principal</a>
 
 </div>
 
